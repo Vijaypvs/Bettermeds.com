@@ -1,0 +1,25 @@
+body{
+    margin: 0 0 auto;
+    padding: 0;
+    background-color: azure;
+    font-family: Helvetica;
+}
+.Col-1{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.Col-2{
+    text-align: left;
+}
+footer{
+    text-align: center;
+    background-color: darkgreen;
+    color: azure;
+    padding: 15px;
+    font-size: .75em;
+}
+.row{
+    padding: 20px 0 10px 30px;
+    font-size: 1.25em;
+}

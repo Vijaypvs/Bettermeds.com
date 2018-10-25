@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="header.css">
+</head>
+<body style="background-color:#efe">
+	<div class="sidebar" style="display:none" id="mySidebar">
+		<ul>
+		<li><a onclick="close()" id="closeside">Close &times;</a></li>
+		<li><a href="#" class="w3-bar-item w3-button">My Account</a></li>
+		<li><a href="#" class="w3-bar-item w3-button">My Orders</a></li>
+		<li><a href="#" class="w3-bar-item w3-button">My Cart</a></li>
+		<li><a href="#" class="w3-bar-item w3-button">My Offers</a></li>
+		<li><a href="#" class="w3-bar-item w3-button">Help Centre</a></li>
+	</ul>
+</div>
+<div class="logo">
+	 <span ><strong><img src="logo.png" width="7%" height="7%"><i style="vertical-align: center">Better meds!</i></strong></span><br></div>
+<div class="headers">
+
+	<form id="search_mini_form" action="" method="get">
+		<div id="searchbox">  
+			<span style="position: relative;">
+				<span onclick="open()" id="menu"><i class="fa fa-bars fa-lg" style="color: azure">  </i>
+				</span>
+				<input id="search" type="text" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" placeholder="Search">
+				<span class="sides">
+				<a class="cart" href=""><i class="fa fa-cart-plus fa-lg" style="color: azure">  </i>
+				</a>
+&emsp;
+				<a class="user" href=""><i class="fa fa-user fa-lg" style="color: azure">  </i>
+				</a>
+&emsp;
+
+			</span>
+			</span>
+
+			<button type="submit" name="Submit" style="height:0.27in"> 
+				<i class="fa fa-search"></i></button>
+		</div>
+	</form>
+    <nav class="nav">
+    	<ul>
+        <li><a class="nav-item" href=""><span><i class="fa fa-home"></i>Home</span> </a></li>
+        <li class="dropdown"><a class="nav-item" href=""  ><span>Explore <i class="fa fa-chevron-down fa-xs"></i></span> </a>
+        <div class="dropdown-content">
+        	<a href="#"><img src="medical-prescription.png" class="icon1">  </img>Prescription</a>
+    		<a href="#"><img src="support.png" class="icon2"></img>Lifestyle</a>
+    		<a href="#"><img src="running.png" class="icon3"></img>Fitness</a>
+    		<a href="#"><img src="icon.png" class="icon4"></img>Devices</a>
+    		<a href="#"><img src="familiar-group-of-three.png" class="icon5"></img>Family Care</a>
+  		</div>
+        </li>
+        <li><a class="nav-item" href=""><span>Health Library</span> </a></li>
+       	<li><a class="nav-item" href=""> <span>Daily Meds</span> </a></li>
+       	<li><a class="nav-item" href=""> <span>Touring Meds</span> </a></li>
+       </ul>
+	</nav>
+
+</div>
+<script type="text/javascript">
+	document.getElementById("menu").onclick=function() {open()};
+	document.getElementById("closeside").onclick=function() {close()};
+	function open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>

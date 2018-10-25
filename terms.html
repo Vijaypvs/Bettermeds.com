@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="index.css" type="text/css">
+</head>
+<body style="background-color:#efe">
+	<div class="sidebar" style="display:none" id="mySidebar">
+		<ul>
+		<li><a onclick="close()" id="closeside">&#10008;Close </a></li>
+		<li><a href="login.html" class="w3-bar-item w3-button">MyAccount</a></li>
+		<li><a href="#" class="w3-bar-item w3-button">MyOrders</a></li>
+		<li><a href="yourcart.html" class="w3-bar-item w3-button">MyCart</a></li>
+		<li><a href="offers.html" class="w3-bar-item w3-button">MyOffers</a></li>
+		<li><a href="#" class="w3-bar-item w3-button">HelpCentre</a></li>
+	</ul>
+</div>
+<div class="logo">
+	 <span ><strong><img src="logo.png" width="7%" height="7%"><i style="vertical-align: center">Better meds!</i></strong></span><br></div>
+<div class="headers">
+
+	<form id="search_mini_form" action="" method="get">
+		<div id="searchbox">  
+			<span style="position: relative;">
+				<span onclick="open()" id="menu"><i class="fa fa-bars fa-lg" style="color: azure">  </i>
+				</span>
+				<input id="search" type="text" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" placeholder="Search">
+				<span class="sides">
+				<a class="cart" href=""><i class="fa fa-cart-plus fa-lg" style="color: azure">  </i>
+				</a>
+&emsp;
+				<a class="user" href=""><i class="fa fa-user fa-lg" style="color: azure">  </i>
+				</a>
+&emsp;
+
+			</span>
+			</span>
+
+			<button type="submit" name="Submit" style="height:0.27in"> 
+				<i class="fa fa-search"></i></button>
+		</div>
+	</form>
+    <nav class="nav">
+    	<ul>
+        <li><a class="nav-item" href=""><span><i class="fa fa-home"></i>Home</span> </a></li>
+        <li class="dropdown"><a class="nav-item" href=""  ><span>Explore <i class="fa fa-chevron-down fa-xs"></i></span> </a>
+        <div class="dropdown-content">
+        	<a href="prescription.html"><img src="medical-prescription.png" class="icon1">  </img>Prescription</a>
+    		<a href="#"><img src="support.png" class="icon2"></img>Lifestyle</a>
+    		<a href="#"><img src="running.png" class="icon3"></img>Fitness</a>
+    		<a href="#"><img src="icon.png" class="icon4"></img>Devices</a>
+    		<a href="#"><img src="familiar-group-of-three.png" class="icon5"></img>Family Care</a>
+  		</div>
+        </li>
+        <li><a class="nav-item" href="health_library.html"><span>Health Library</span> </a></li>
+       	<li><a class="nav-item" href=""> <span>Daily Meds</span> </a></li>
+       	<li><a class="nav-item" href=""> <span>Touring Meds</span> </a></li>
+       </ul>
+	</nav>
+
+</div>
+
+<div class="terms">
+    <h2>Terms and Conditions:</h2>
+<br><br>
+The following are the Terms and Conditions, read together with the Privacy Policy, that govern your purchase and use of the products and services (the "Products") from bettermeds.com, and constitute a legally binding agreement, between you ("the Customer", the "User" or "the Caregiver") and bettermeds.com, a fully licensed Pharmacy. 
+<br><br>
+By visiting, viewing, accessing or otherwise using any of the services or information created, collected, compiled or submitted to www.bettermeds.com, you are deemed to have agreed to all the following Terms and Conditions of Sale/Service. So, before you use this Website, please read these Terms carefully as you agree to be bound by them. If you do not accept these Terms and Conditions, please do not use this Website.
+<br><br>
+1. Creating an Account 
+<br><br>
+1.1 To use certain features of the Website (e.g., ordering Products, posting rating/reviews, receiving Bettermeds enewsletters), you must set up an account with bettermeds.com ("Bettermeds Account") and provide certain information about yourself as prompted by the Customer Information form, including, your name, gender, email address, account password, mobile phone number and billing/shipping address. All of your registration information is protected by our Privacy Policy.
+<br><br>
+1.2 You represent and warrant that the information you submit during registration is truthful and accurate and that you will maintain the accuracy of such information.
+<br><br>
+1.3 Your Bettermeds Account username and password are personal to you. You may not transfer your account and you will be responsible for the activities associated with your Bettermeds Account.
+<br><br>
+1.4 bettermeds.com will not be liable for any loss or damages as a result of your failure to maintain the confidentiality of your account credentials. If you suspect any unauthorised use of your Bettermeds account, you shall immediately notify bettermeds.com.
+<br><br>
+1.5 It is your responsibility to keep your email address up-to-date on your account setup at bettermeds.com so that we can communicate with you electronically.
+<br><br>
+2. Privacy Policy
+<br><br>
+2.1 Your personally identifiable information will be used in accordance with our Privacy Policy. To understand our practices, as to how we collect, use and disclose your personally identifiable information, please refer our Privacy Policy, which also governs your visit to bettermeds.com.
+<br><br>
+2.2 We understand the privacy of all information you provide is of a primary importance. This is why we do everything possible to use it carefully and sensibly. This information is never shared with other companies or third party service providers.
+<br><br>
+3. Security Policy
+<br><br>
+All your transactions are 100% secure when you place an order online at bettermeds.com. Your personal information is encrypted by using 256-bit Secure Sockets Layer (SSL) encryption technology before being sent over the Internet, which ensures the privacy and high level of security of all your information.
+<br><br>
+4. Customer eligibility
+<br><br>
+Our Customers or Users must be over 18 years of age and registered with us. bettermeds.com is not intended for children under the age of 18. We will not knowingly collect information from Bettermeds visitors in this age group.
+<br><br>
+5. Price and Payment
+<br><br>
+5.1 All our product prices include all applicable statutory taxes.
+<br><br>
+5.2 We make every effort to make sure that the pricing and availability of Products on our Website is accurate and up to date. However, rarely, there may be an error on the pricing of a product or an error related to product availability. In such cases, we are not responsible for any typographical errors and we reserve the right to cancel the sale.
+<br><br>
+5.3 We reserve the right to correct any inaccuracies or omissions related to pricing and product availability/descriptions, even after you have submitted your order, and to change or update any other information at any time without prior notice.
+<br><br>
+5.4 The following are our delivery charges:
+- Delivery charges for ALL orders: Rs. 25
+- FREE Delivery on Medicine orders of Rs. 1000 or more. 
+<br><br>
+5.5 Delivery times may vary depending on the delivery location as well as the type of product you order.
+<br><br>
+5.6 You can make the payment via any one of the following methods of payment: Credit/Debit Card, Net Banking or Cash on Delivery.
+<br><br>
+5.7 Credit/Debit Card and Net Banking Payments are processed via our online payment service partners.
+<br><br>
+6. Use of Information on the Website
+<br><br>
+6.1 The information provided on the Website or through our services is intended for informational purposes only, and is not intended to diagnose, treat, cure or prevent any disease.
+<br><br>
+6.2 The information on this Website is not a substitute for professional medical advice or treatment for specific medical conditions. It is important that you do not make medical decisions, and you should always seek the advice of your physician or other qualified healthcare professional with any questions you may have about your medical condition.
+<br><br>
+6.3 bettermeds.com does not endorse any views or opinions that may be included in the Website Content, or other information provided through our Services. Your submission of questions or reviews on our Products does not constitute a professional relationship between you and bettermeds.com.
+<br><br>
+7. Disclaimer of Warranties and Limitation of Liability
+<br><br>
+7.1 All information, Products and services included on or otherwise made available to you through this Website are provided by bettermeds.com on an "as is" and "as available" basis, either expressed or implied, we specifically disclaim warranties of any kind to the extent allowed by the applicable law. You expressly agree that your use of this Website is at your sole risk.
+<br><br>
+7.2 bettermeds.com assumes no responsibility for any damages or viruses that may infect your computer equipment or other property on account of your access to, use of, or browsing in this site.
+<br><br>
+7.3 bettermeds.com has exerted reasonable efforts to ensure that all information published on the Website is accurate at the time of posting; however, there may be errors in such information for which we shall have no liability. We reserve the right to remove or alter any of the information contained on the Website at our sole discretion.
+<br><br>
+7.4 bettermeds.com cannot guarantee the adequacy, currency or completeness of the Website content. bettermeds.com does not warrant or endorse the effectiveness, quality or safety of the Products available on its Website.
+<br><br>
+7.5 We disclaim responsibility for any harm to persons resulting from any instructions or Products referred to in the Website. bettermeds.com is not associated with any manufacturer of medicines or other products on the Website. We do not warrant that the Website, or its content will meet your requirements.
+<br><br>
+7.6 Please note that while Bettermeds has made every effort to accurately display the colours of products on its Website, the actual colour you see will depend on your monitor. We cannot guarantee that your monitor's display of any colour will be the same as the colour of the Products delivered to you.
+<br><br>
+7.7 We may let you view our information and communicate with us through the Social Media services such as Facebook and Twitter. Bettermeds explicitly disclaims any responsibility for the terms of use and privacy policies that govern these third-party websites, which are in no way associated with us.
+<br><br>
+7.8 bettermeds.com accepts no responsibility for any loss or damage suffered due to your reliance on the product reviews posted by the Bettermeds Users.
+<br><br>
+7.9 bettermeds.com reserves the right to modify or withdraw any part of the website or any of its content at any time without notice.
+<br><br>
+8. Website Availability
+<br><br>
+We take all reasonable care to ensure the availability of the bettermeds.com Website 24 hours every day, 365 days per year. However, the Website may become temporarily unavailable due to maintenance, server or other technical issues, or for reasons beyond our control. bettermeds.com does not warrant uninterrupted access to this Website or any linked website. However, we may, but shall not be obliged to, issue a notice when we know of scheduled maintenance of our Website.
+<br><br>
+9. Links to third-party websites
+<br><br>
+We provide link to third-party websites, our online payment service partners, which process your Net Banking and Credit/Debit Card payments, respectively. We are not responsible for the availability or proper functioning of such linked pages or sites, and we will not be held responsible for any loss or inconvenience encountered as a result of using such Website link.
+<br><br>
+10. Terms of Sale
+<br><br>
+10.1 bettermeds.com may accept or decline any order placed by a Customer in its absolute discretion without liability to you.
+<br><br>
+10.2 bettermeds.com reserves the right to discontinue any program or offer on its Website.
+<br><br>
+10.3 We reserve the right, without prior notice, to limit the order quantity of any Products available on bettermeds.com.
+<br><br>
+10.4 We acknowledge and you agree that you have fully and accurately disclosed your personal information and personal health information and consent to its use by the Pharmacy Bettermeds and/or its affiliates. You confirm that you have had a physical examination by a physician and do not require a physical examination.
+<br><br>
+10.5 You understand that all Products shall be sold & dispensed by a registered Pharmacist at Bettermeds and/or its affiliates.
+<br><br>
+10.6 If you are the patient/parent/authorised person on behalf of the patient, you authorise and appoint the Pharmacy Bettermeds and/or its affiliates, as your attorney and agent, to take all steps, sign all documents and to act on your behalf as if you were personally present and acting for yourself for the limited purposes of (a) obtaining a valid prescription for any prescription which you have sent the Pharmacy; and (b) packaging your prescriptions and delivering them to you. By making this purchase you hereby authorise Bettermeds and/or its affiliates to ship the order by Post/courier to your designated location. This authorisation shall include, but not be limited to: collecting and using your personal and personal health information as reasonably necessary for the fulfillment of your order.
+<br><br>
+"YOU HAVE READ AND UNDERSTAND THESE TERMS AND AGREE THAT THEY SHALL BE BINDING UPON YOU AND YOUR ASSIGNS, HEIRS AND PERSONAL REPRESENTATIVES."
+<br><br>
+10.7 "If you are the parent/legal guardian/authorised person for the patient disclosed herein, you affirm that you are over the age of majority, and have full authority to sign for and provide the above representations to the Pharmacy Bettermeds and/or its affiliates on the Patient's behalf." 
+<br><br>
+11. Prescription Medication Policy
+<br><br>
+11.1 bettermeds.com, a fully licensed and regulated pharmacy, takes all precautions to strictly abide by the laws and regulations set forth in the dispensing of prescription medications. By placing the order for your prescription medicines, you acknowledge and accept the following terms regarding the purchase of any prescription medicines.
+<br><br>
+11.2 bettermeds.com will not dispense any prescription medication without a valid prescription from a licensed physician.
+<br><br>
+11.3 If you are ordering prescription medication(s), you hereby confirm that you will send us a scanned copy of your valid prescription(s) via email, fax, Whatsapp, or by post, and this prescription shall then be subject to the scrutiny of and approval by our qualified Pharmacists.
+<br><br>
+11.4 The drug information provided in the bettermeds.com is for informative purposes only and this Website is not intended to provide diagnosis, treatment or medical advice. We are not liable for any adverse effects or harm to you as a result of your reliance on the information in the Website.
+<br><br>
+11.5 Bettermeds requires either the User or Customer or the Caregiver to confirm he/she is completely aware of the indications, side effects, drug interactions, effects of missed dose or overdose of the medicines he/she orders from us. It is imperative to seek professional advice from your physician before purchasing or consuming any medicine from bettermeds.com.
+<br><br>
+11.6 At bettermeds.com, a Caregiver can order prescription medicines on your behalf.
+<br><br>
+12. Return and Refund Policy
+<br><br>
+Refund Policy
+At bettermeds.com, we do our best to ensure that you are completely satisfied with our products. And we are happy to issue a full refund based on the conditions listed below:
+<br><br>
+Full Refund Possible If: 
+you received a defective item;
+the ordered item(s) is lost or damaged during transit;
+the ordered item(s) is past its expiry date.
+<br><br>
+Please note: Mode of refund may vary depending on circumstances. If the mode of refund is by Credit/Debit Card or Net Banking, please allow 7 to 10 working days for the credit to appear in your account. While we regret any inconvenience caused by this time frame, it is the bank's policy that delays the refund timing and we have no control over that. If the mode of refund is by NMS Wallet, credit should be available within 24 hours.
+<br><br>
+How to Request a Refund: 
+To request a refund, simply email us your order details, including the reason why you're requesting a refund. We take customer feedback very seriously and use it to constantly improve our quality of service.
+<br><br>
+If you have any queries, do call our help desk at 72007-12345, email us at sales@bettermeds.com, or contact our customer support executives through online chat. We're here for you! 
+<br><br>
+Return Policy
+We do our best to ensure that the products you order are delivered according to your specifications. However, should you receive an incomplete order, damaged or incorrect product(s), please notify Bettermeds Customer Support immediately or within 10 working days of receiving the products, to ensure prompt resolution. Please note that bettermeds.com will not accept liability for such delivery issues if you fail to notify us within 10 working days of receipt.
+<br><br>
+We also understand that various circumstances may arise leading you to want to return a product or products that are not defective. In these cases, we may allow the return of unopened, unused products after deducting a 20% restocking charge, ONLY if you notify us within 30 working days of receipt.
+<br><br>
+Return Policy Exceptions:
+<br><br>
+Please note that we are unable to offer replacements or exchanges for the following product categories: Injections, Health Monitor & Equipments and Ortho Support. Also, bettermeds.com reserves the right to refuse returns (or refunds) for certain products, as marked in the respective product pages as "Note: This item cannot be returned for a refund or exchange." 
+<br><br>
+13. Copyrights, Trademarks and other Intellectual Property Rights
+<br><br>
+13.1 As per the Terms and Conditions of bettermeds.com, the Website grants access to Users/Customers to view the content solely for visiting, ordering, and communicating only. All materials in this Website, including, but not limited to, images, illustrations, text, logos and page headers, that are part of this Website are copyrights and/or other intellectual properties owned by Bettermeds Marketplace Limited. All other trademarks not owned by bettermeds.com that appear on this Website are the property of their respective owners, who may or may not be affiliated with, connected to, or sponsored by bettermeds.com. 
+<br><br>
+13.2 You hereby agree that you will not reproduce, duplicate or copy the content of bettermeds.com for any purpose, unless you have been specifically permitted to do so in a separate agreement with this Website. 
+<br><br>
+14. User Indemnification
+<br><br>
+You hereby agree to indemnify, defend, hold harmless bettermeds.com and its officers, directors, employees, agents, information providers, partners, licensors, advertisers and suppliers from and against all claims, losses, expenses, damages and costs, including reasonable legal fees and costs, resulting from any violation of this agreement, or any activity related to your account, or any information or material you have submitted or will submit to us in violation of any law or in breach of any third party rights (including, but not limited to, claims in respect of defamation, invasion of privacy, or infringement of any other intellectual property right). We reserve the right to exclusively defend and control any claims arising from the above and any such indemnification matters, and you hereby agree to cooperate fully with us in asserting any available defenses. 
+<br><br>
+15. Applicable Law and Jurisdiction
+<br><br>
+These Terms and Conditions and your use of this Website and its content will be governed by and construed in all respects in accordance with the laws of India subject to the jurisdictional courts of Chennai.
+<br><br>
+16. Severability
+<br><br>
+If any provision of these Terms and Conditions shall be unlawful, void, or for any reason unenforceable, then that provision shall be deemed severable from these Terms and Conditions and shall not affect the validity and enforceability of any remaining provisions. 
+<br><br>
+17. No Waiver
+<br><br>
+No failure on the part of bettermeds.com to enforce any part of these Terms and Conditions shall constitute a waiver of any of Bettermeds' rights under these Terms and Conditions, whether for past or future actions on the part of any person. Neither the receipt of any funds by Bettermeds nor the reliance of any person on Bettermeds actions shall be deemed to constitute a waiver of any part of these Terms and Conditions. Only a specific, written waiver signed by an authorised representative of bettermeds.com shall have any legal effect whatsoever.
+<br><br>
+18. Submissions
+<br><br>
+18.1 bettermeds.com reserves sole discretion to accept, edit or reject any and all materials you may send to us (collectively, "Submissions") as part of the features in the Website, including but not limited to, Ratings & Reviews, Ask Our Pharmacist Your Questions and Testimonials. Such Submissions should not be offensive on moral, religious, racial or political grounds or of an abusive, indecent, threatening, unlawful, obscene, defamatory, menacing or otherwise objectionable nature. Transmitting such offensive materials may violate relevant laws, regulations and ethics of pharmacy. 
+<br><br>
+18.2 bettermeds.com shall be deemed to own all known and hereafter existing rights of every kind and nature regarding the Submissions. By posting, uploading, inputting or providing your Submissions, you hereby grant unrestricted use of the Submissions for any purpose, without compensation to you, including a non-terminable, royalty-free and non-exclusive license to use, copy, distribute, transmit, publicly display, publicly perform, reproduce, edit, translate and reformat your Submission; and to publish your name in connection with your Submission. 
+<br><br>
+18.3 You also represent and warrant that your Submissions will not infringe, misappropriate or violate a third party's patent, copyright, trademark, trade secret, moral rights or other intellectual property rights, or rights of publicity or privacy. 
+<br><br>
+18.4 The User/Customer shall be prohibited to introduce, post, or transmit any information or software, which contains a virus, worm or other harmful components into the bettermeds.com Website. 
+<br><br>
+18.5 bettermeds.com does not endorse and is not responsible for any Submissions on its Website. We will not be liable for any loss or harm caused by the Submissions or your reliance on the information, including but not limited to, statements, opinions and reviews posted by the Users/Customers, which may be inaccurate, offensive, obscene, threatening or harassing.
+<br><br>
+19. Termination
+<br><br>
+You agree that bettermeds.com, in its sole discretion and for any or no reason, including without limitation if you breach these Terms and Conditions, may terminate your access to and use of the Website, at any time. You agree that any termination of your access to the Website or suspension of your account may be effected without prior notice, and you agree that bettermeds.com shall not be liable to you for any such termination. Your right to use the Bettermeds Website/Service immediately ceases upon termination of your access/use of the Website.
+<br><br>
+20. Changes to these Terms and Conditions
+<br><br>
+We reserve the right to amend these terms and conditions from time to time without further notice to you. Any such amendments we make shall be effective once we post a revised version of these Terms and Conditions on the Website. It is your responsibility to review the bettermeds.com Terms and Conditions regularly. Your continued use of the Website following the publication of any such changes will constitute your agreement to follow and be automatically bound by the amended terms and conditions. These Terms were published on 27/03/2018. 
+<br><br>
+Contact Information
+<br><br>
+Please contact us for any questions or comments regarding these Terms and Conditions.
+Telephone number: 72007-12345
+E-mail: cs@bettermeds.com
+<br><br>
+<p style="text-align: center">&#42;&#42;Note:- All the information is taken from Netmeds.com&#42;&#42;</p>
+
+</div>
+
+
+<footer>
+            <div class="row"><hr><br>
+            <div class="Col-1">
+                COMPANY INFO:<br>
+                <a href="about_us.html">About Bettermeds.com</a><br>
+                <a href="terms.html">Terms and Conditions</a><br>
+                <a href="privacy.html">Privacy Policy</a><br>
+            </div>
+            
+            <div class="Col-2">
+                &#9888; Need Help?<br>
+                &#9743; 100-250-1006<br>
+                &#9755; care&#64;bettermeds.com<br><br>
+            </div>
+            <br>
+            <hr>
+            <div class="footer">
+                Copyright &copy; 2018 Bettermeds Marketplace Limited. All rights reserved
+            </div>
+            </div>
+        </footer>
+<script type="text/javascript">
+	document.getElementById("menu").onclick=function() {open()};
+	document.getElementById("closeside").onclick=function() {close()};
+	function open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+function close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
